@@ -7,10 +7,7 @@ on:
  issues:
      types: [opened]
   push:
-    branches:
-      - welcome-workflow
-    paths:
-      - ".github/**"
+
 
 permissions:
   contents: read

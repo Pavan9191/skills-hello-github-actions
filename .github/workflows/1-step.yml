@@ -1,6 +1,11 @@
+
 name: Step 1
 
+  
+
 on:
+ issues:
+     types: [opened]
   push:
     branches:
       - welcome-workflow
